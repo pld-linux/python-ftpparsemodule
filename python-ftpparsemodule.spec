@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 %define 	module	ftpparsemodule
 
 Summary:	Python package providing parse ftp LIST command
