@@ -1,7 +1,7 @@
 %define 	module	ftpparsemodule
 
-Summary:	Python package providing parse ftp LIST command
-Summary(pl):	Pakiet Pythona do analizy polecenia ftp LIST
+Summary:	Python package providing parse FTP LIST command
+Summary(pl):	Pakiet Pythona do analizy polecenia FTP LIST
 Name:		python-%{module}
 Version:	0.93
 Release:	2
@@ -15,7 +15,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 FTP-Servers provide a wide range of responses to the LIST command.
-ftpparsemodule allows you to parse most ftp-servers LIST responses
+ftpparsemodule allows you to parse most FTP-servers LIST responses
 found in the wild. It does so by using Dan Bernstein's ftpparse
 package and making it accessible to Python.
 
