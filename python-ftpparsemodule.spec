@@ -5,7 +5,7 @@ Summary:	Python package providing parse ftp LIST command
 Summary(pl):	Pakiet Pythona do analizy polecenia ftp LIST
 Name:		python-%{module}
 Version:	0.93
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages/Python
 Source0:	http://c0re.23.nu/c0de/ftpparsemodule/ftpparsemodule-%{version}.tar.gz
