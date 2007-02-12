@@ -1,7 +1,7 @@
 %define 	module	ftpparsemodule
 
 Summary:	Python package providing parse FTP LIST command
-Summary(pl):	Pakiet Pythona do analizy polecenia FTP LIST
+Summary(pl.UTF-8):   Pakiet Pythona do analizy polecenia FTP LIST
 Name:		python-%{module}
 Version:	0.93
 Release:	2
@@ -19,11 +19,11 @@ ftpparsemodule allows you to parse most FTP-servers LIST responses
 found in the wild. It does so by using Dan Bernstein's ftpparse
 package and making it accessible to Python.
 
-%description -l pl
-Serwery FTP dostarczaj± du¿ego rozrzutu odpowiedzi na polecenie LIST.
-ftpparsemodule pozwala przeanalizowaæ odpowiedzi na LIST pochodz±ce od
-wiêkszo¶ci serwerów FTP istniej±cych na ¶wiecie. Robi to przy u¿yciu
-pakietu ftpparse Dana Bersteina, czyni±c go dostêpnym z poziomu
+%description -l pl.UTF-8
+Serwery FTP dostarczajÄ… duÅ¼ego rozrzutu odpowiedzi na polecenie LIST.
+ftpparsemodule pozwala przeanalizowaÄ‡ odpowiedzi na LIST pochodzÄ…ce od
+wiÄ™kszoÅ›ci serwerÃ³w FTP istniejÄ…cych na Å›wiecie. Robi to przy uÅ¼yciu
+pakietu ftpparse Dana Bersteina, czyniÄ…c go dostÄ™pnym z poziomu
 Pythona.
 
 %prep
