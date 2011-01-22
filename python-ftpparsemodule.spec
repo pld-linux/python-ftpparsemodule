@@ -11,6 +11,10 @@ Source0:	http://c0re.23.nu/c0de/ftpparsemodule/ftpparsemodule-%{version}.tar.gz
 # Source0-md5:	05735a02d74554f8895e9faf5e3b15d5
 Patch0:		%{module}-gcc.patch
 URL:		http://c0re.23.nu/c0de/ftpparsemodule/
+BuildRequires:	python
+BuildRequires:	python-devel
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
